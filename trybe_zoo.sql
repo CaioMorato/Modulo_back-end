@@ -12,3 +12,9 @@ CREATE TABLE animals(
     idade INT NOT NULL,
     localizacao VARCHAR(25) NOT NULL
 ) ENGINE=InnoDB;
+
+INSERT INTO animals(nome, especie, sexo, idade, localizacao)
+VALUES('Claudemir', 'Phoca vitulina', 'M', 7, 'Aquário Norte'),
+('Jucélia', 'Phoca vitulina', 'F', 12, 'Aquário Norte'),
+('Cleosvaldo', 'Phoca vitulina', 'M', 10, 'Aquário Norte'),
+('Moacyr', 'Phoca vitulina', 'M', 7, 'Aquário Norte');
